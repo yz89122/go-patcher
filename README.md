@@ -18,3 +18,10 @@ The second argument (which is `the/pathes/dir` in above example) is the path to 
 ## Structure of the Patches directory
 
 In the patches directory, the structure of the directories will be taken as import pathes. For example, `errors/errors.go` will replace the file `errors.go` in the  standard package `errors`.
+
+## Example Output
+
+```
+go-patcher example
+/tmp/go-patcher574244752/patches.json
+```
