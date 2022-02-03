@@ -87,6 +87,6 @@ func (e *errorImpl) Stack() []uintptr {
 
 func stack() []uintptr {
 	var stack [StackDepth]uintptr
-	var n = runtime.Callers(3, stack[:])
+	var n = runtime.Callers(4, stack[:])
 	return stack[:n]
 }
